@@ -1,0 +1,33 @@
+fieldset{
+    float: center;
+}
+.div1 {
+    margin: auto;
+    width: 90%;
+    border: 3px solid #64696b;
+    padding: 10px;
+  }
+.video{
+    width: 100%;
+    height: auto;
+}
+.div2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+.thanks{
+    text-align: center;
+}
+.thanksctr{
+    margin: 20em;
+}
+html {
+	background-color: rgb(129, 126, 120);
+}
+body{
+	background-color: rgb(227, 219, 235);
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 1px solid black;
+}
