@@ -22,4 +22,29 @@
            </form>
         </fieldset>  
     </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAOCNyGVZUdgNgtibCEuURayTozOPnsznE",
+        authDomain: "accessible-video.firebaseapp.com",
+        databaseURL: "https://accessible-video.firebaseio.com",
+        projectId: "accessible-video",
+        storageBucket: "accessible-video.appspot.com",
+        messagingSenderId: "170411155273",
+        appId: "1:170411155273:web:7cb948fb295e5d81888498",
+        measurementId: "G-C841QBMQVD"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+  </body>
 </body>
